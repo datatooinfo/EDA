@@ -17,5 +17,5 @@ axis(1, at=a, labels=b)
 par (oma=c(5,4,3,1))
 
 #Copy the plot to a PNG file
-dev.copy(png, file="plot2.png")
+dev.copy(png, width = 480, height = 480, file="plot2.png")
 dev.off()
