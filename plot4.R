@@ -47,6 +47,6 @@ with(sixthplot, {
 })
 
 #Copy the plot to a PNG file
-dev.copy(png, width = 480, height = 480, file="plot6.png")
+dev.copy(png, width = 480, height = 480, file="plot4.png")
 dev.off()
 
